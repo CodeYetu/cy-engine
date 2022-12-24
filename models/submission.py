@@ -1,6 +1,5 @@
 from typing import Optional
 from dataclasses import dataclass
-"""Submission Model"""
 
 @dataclass
 class Submission:

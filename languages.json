@@ -1,0 +1,68 @@
+[
+    {
+        "id": 10,
+        "name": "Rust",
+        "source_file": "main.rs",
+        "compile_cmd": "rustc main.rs",
+        "run_cmd": "./main"
+    },
+    {
+        "id": 9,
+        "name": "Ruby (2.7.0)",
+        "source_file": "script.rb",
+        "run_cmd": "/usr/local/ruby-2.7.0/bin/ruby script.rb"
+    },
+    {
+        "id": 8,
+        "name": "TypeScript",
+        "source_file": "index.ts",
+        "run_cmd": "ts-node index.ts"
+    },
+    {
+        "id": 7,
+        "name": "Python",
+        "source_file": "main.py",
+        "run_cmd": "python3 main.py"
+    },
+    {
+        "id": 6,
+        "name": "JavaScript",
+        "source_file": "index.js",
+        "run_cmd": "node index.js"
+    },
+    {
+        "id": 5,
+        "name": "Java (OpenJDK 13.0.1)",
+        "source_file": "Main.java",
+        "compile_cmd": "/usr/local/openjdk13/bin/javac %s Main.java",
+        "run_cmd": "/usr/local/openjdk13/bin/java Main"
+    },
+    {
+        "id": 4,
+        "name": "Fortran",
+        "source_file": "main.f90",
+        "compile_cmd": "gfortran main.f90",
+        "run_cmd": "./a.out"
+    },
+    {
+        "id": 3,
+        "name": "C# (Mono 6.6.0.161)",
+        "source_file": "Main.cs",
+        "compile_cmd": "/usr/local/mono-6.6.0.161/bin/mcs %s Main.cs",
+        "run_cmd": "/usr/local/mono-6.6.0.161/bin/mono Main.exe"
+    },
+    {
+        "id": 2,
+        "name": "C++",
+        "source_file": "main.cpp",
+        "compile_cmd": "g++ main.cpp",
+        "run_cmd": "./a.out"
+    },
+    {
+        "id": 1,
+        "name": "C",
+        "source_file": "main.c",
+        "compile_cmd": "gcc main.c",
+        "run_cmd": "./a.out"
+    }
+]
